@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/space-x-launch-list-react/build/precache-manifest.8aec5a2a9d7624550576b5f1b07820fe.js"
+  "/space-x-launch-list-react/precache-manifest.6f8af51bcf24d6263a1df3430a2222d8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/space-x-launch-list-react/build/index.html", {
+workbox.routing.registerNavigationRoute("/space-x-launch-list-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
