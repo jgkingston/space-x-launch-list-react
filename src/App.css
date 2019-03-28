@@ -1,6 +1,7 @@
 body {
-	color: #333;
-	font-size: 1em;
+  color: #3a3a3a;
+  font-family: 'Brandon Grotesque','brandon-grotesque-n7','brandon-grotesque',Helvetica,sans-serif;
+  font-size: 14px;
 }
 
 table {
@@ -84,15 +85,31 @@ tr.clickable-row {
   cursor: pointer;
 }
 
+tr.clickable-row:hover {
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+tr.clickable-row:hover td {
+  white-space: normal
+}
+
 tfoot .pagination {
   display: flex;
   justify-content: flex-end
 }
 
 button {
+  background: #000;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
   cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
   margin: 0 16px;
-  padding: 8px 16px;
+  padding: 1em 2.182em;
+  text-transform: uppercase;
 }
 
 button:disabled {
